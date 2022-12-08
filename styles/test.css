@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat';
+  background-color: #fafafa;
+}
+
+:root {
+  --green: #72AEA6;
+  --darkblue: #152a42;
+  --yellow: #f4eb34;
+  --bg: #fafafa;
+}
+
+/* YELLOW BANNER */
+header {
+  width: 100%;
+  height: 3rem;
+  background-color: var(--yellow);
+  position: relative;
+  padding: 1em;
+}
+
+p {
+  color: #152a42;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 300;
+  padding: 1.2em auto;
+  width: 100%;
+}
+
+/* NAVBAR */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2em;
+
+}
+
+.nav-link {
+  list-style: none;
+  margin: 20px 0;
+  border-bottom: 1.5px solid #e0dede;
+  width: 10rem;
+}
+
+li a {
+  color: #152a42;
+  font-size: 1.2em;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  text-decoration: none;
+  line-height: 1.7em;
+
+}
+
+li a:hover {
+  color: var(--green);
+
+}
+
+.navbar {
+  background-color: #fff;
+  position: sticky;
+  width: 100%;
+}
+
+.flex-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar img {
+  width: 5em;
+  padding: 0.4em;
+}
+
+.nav-header {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-toggle {
+  background-color: transparent;
+  border: transparent;
+  color: #152a42;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+}
+
+.nav-links {
+  display: none;
+}
+
+.nav-open {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  padding: 3rem;
+  background: white;
+  /* transition: 2s; */
+  z-index: 99;
+}
+
+/* ICONS */
+.hamburger,
+.shoppingcart,
+.person {
+  background-color: transparent;
+  border: none;
+  color: #152a42;
+  position: relative;
+}
+
+.shoppingcart:hover {
+  color: var(--green);
+
+}
+
+.person:hover {
+  color: var(--green);
+}
+
+/* FORM */
+.multistep-form {
+  margin-top: 3em;
+  padding: 0.5rem 1.5rem;
+  overflow: hidden;
+}
+
+.card {
+  padding: 0rem 2rem 1.5rem 2rem;
+  margin: 0rem auto 0 auto;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  color: #333;
+  box-shadow: -1px 2px 8px 2px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  animation: slide-out 300ms ease-in-out;
+}
+
+.card h2 {
+  text-align: left;
+  width: 100%;
+  align-items: center;
+  color: #649b94;
+  font-size: 1.1rem;
+  margin-top: 1.2em;
+  padding: 0.5rem;
+}
+
+.card h3 {
+  text-align: left;
+  width: 100%;
+  align-items: center;
+  color: #152a42;
+  font-weight: 400;
+  font-size: 0.8rem;
+  padding: 0.5rem;
+  line-height: 1.4em;
+}
+
+.card h4 {
+  text-align: right;
+  justify-content: right;
+  width: 100%;
+  align-items: center;
+  color: #94989e;
+  font-weight: 400;
+  font-size: 0.7rem;
+  padding-top: 1rem;
+
+}
+
+.card h5 {
+  color: #94989e;
+  text-align: left;
+  width: 100%;
+  align-items: center;
+  font-weight: 400;
+  font-size: 0.8rem;
+  padding: 0.5rem;
+  line-height: 1.4em;
+}
+
+.card h5 a{
+  text-decoration: none;
+  color: #649b94;
+  font-weight: 600;
+}
+
+.card input,
+.card textarea {
+  font-family: inherit;
+  display: block;
+  margin-bottom: 0.75rem;
+  padding: 0.75rem 0.75rem;
+  width: 100%;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.card textarea {
+  resize: none;
+  height: 75px;
+}
+
+.card input:focus,
+.card textarea:focus {
+  border: 1px solid #649b94;
+}
+
+.card button:first-of-type {
+  margin-left: 0.5em;
+}
+
+.info{
+  background-color: transparent;
+  border: none;
+  color: #649b94;
+  position: absolute;
+}
+
+
+.btn {
+  font-family: 'Montserrat';
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin: 1em;
+}
+
+.btn-primary {
+  color: #152a42;
+  background-color: #f4eb34;
+  border-radius: 40px;
+  font-size: 0.7em;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  padding: 1em 1.5em;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #649b94;
+  color: white;
+}
+
+.card.active {
+  animation: slide-in 150ms 125ms ease-in-out both;
+}
+
+.hide {
+  display: none;
+}
+
+/* CHECKBOX */
+.radiobtn {
+  display: block;
+  position: relative;
+  margin-top: 12px;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.radiobtn input {
+  display: none;
+}
+
+.checkmark {
+  margin-left: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #fff;
+  border: 1px solid #649b94;
+  border-radius: 50%;
+}
+
+.radiobtn:hover input~.checkmark {
+  background-color: #f2f3f4;
+}
+
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.radiobtn input:checked~.checkmark:after {
+  display: block;
+}
+
+.radiobtn .checkmark:after {
+  top: 1.7px;
+  left: 1.3px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #649b94;
+}
+
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(50%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-out {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+}
