@@ -21,7 +21,7 @@ body {
 /* YELLOW BANNER */
 header {
     width: 100%;
-    height: 3rem;
+    height: 3.5rem;
     background-color: var(--yellow);
     position: relative;
     padding: 1em;
@@ -113,8 +113,11 @@ li a:hover {
     height: 100vh;
     padding: 3rem;
     background: white;
-    /* transition: 2s; */
     z-index: 99;
+}
+
+.nav-close {
+    display: none;
 }
 
 
@@ -143,6 +146,7 @@ li a:hover {
 
 .hero {
     background-color: #fafafa;
+    z-index: -1;
 }
 
 .hero h1 {
@@ -188,6 +192,7 @@ section {
     align-items: center;
     min-height: 400px;
     padding: 4em 10vw;
+    z-index: -1;
 }
 
 /*BUTTON*/
