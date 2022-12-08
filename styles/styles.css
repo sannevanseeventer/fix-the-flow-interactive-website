@@ -91,7 +91,7 @@ li a:hover {
     align-items: center;
 }
 
-.nav-toggle {
+.nav-toggle, .nav-toggle2 {
     background-color: transparent;
     border: transparent;
     color: #152a42;
@@ -99,6 +99,10 @@ li a:hover {
     font-weight: 600;
     font-size: 1rem;
     letter-spacing: 0.1em;
+}
+
+.nav-toggle:hover, .nav-toggle2:hover {
+    color:#72AEA6;
 }
 
 .nav-links {
@@ -122,7 +126,6 @@ li a:hover {
 
 
 /* ICONS */
-.hamburger,
 .shoppingcart,
 .person {
     background-color: transparent;
@@ -145,6 +148,7 @@ li a:hover {
 /* HERO*/
 
 .hero {
+    position: relative;
     background-color: #fafafa;
     z-index: -1;
 }
@@ -192,12 +196,11 @@ section {
     align-items: center;
     min-height: 400px;
     padding: 4em 10vw;
-    z-index: -1;
+    z-index:-1;
 }
 
 /*BUTTON*/
 .button {
-    display: inline-block;
     text-decoration: none;
     background-color: var(--yellow);
     color: #152a42;
@@ -207,7 +210,6 @@ section {
     font-size: 0.8rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    align-self: flex-start;
 }
 
 .button:hover {
@@ -281,10 +283,12 @@ section {
         text-align: left;
     }
 
+
     .hero {
         background-image: url("../assets/background4.png");
         background-size: cover;
         background-repeat: no-repeat;
+        z-index: 99;
     }
 
     .nav-toggle {
@@ -316,7 +320,7 @@ section {
     }
 
     li a {
-        font-size: 0.8em;
+        font-size: 0.9em;
 
     }
 
@@ -354,7 +358,7 @@ section {
     }
     
     .text {
-        padding-top: 8em;
+        padding-top: 6em;
     }
 
 
