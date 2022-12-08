@@ -320,7 +320,7 @@ section {
     }
 
     li a {
-        font-size: 0.9em;
+        font-size: 0.8em;
 
     }
 
@@ -358,7 +358,7 @@ section {
     }
     
     .text {
-        padding-top: 4em;
+        padding-top: 6em;
     }
 
 
@@ -481,12 +481,12 @@ section {
         @media only screen and (min-width: 1350px) {
 
             .hero h1 {
-                font-size: 2em;
+                font-size: 1.8em;
             }
         
             .hero h2 {
                 max-width: 35%;
-                font-size: 1.3rem;
+                font-size: 1.2rem;
                 line-height: 1.5em;
             }
             
@@ -498,5 +498,5 @@ section {
             }
             
             .text {
-                padding-top: 13em;
+                padding-top: 9em;
             }}
