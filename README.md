@@ -1,7 +1,7 @@
 <img width="156" alt="Schermafbeelding 2022-09-29 om 13 38 58" src="https://user-images.githubusercontent.com/112857444/193126088-101fcf85-c8e5-457d-a00f-e862a33249ac.png">
 
 <h2>Opdracht</h2>
-Ontwerp en maak voor een opdrachtgever een component of website op basis van een bestaande huisstijl.
+Ontwerp en maak een interactieve website voor een opdrachtgever.
 <br>
 <br>
 
