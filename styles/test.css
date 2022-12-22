@@ -129,6 +129,15 @@ color:#649b94;
 display: none;
 }
 
+.nav2{
+  width: 100%;
+  font-size: 0.7em;
+  color:#7a7a7a;
+  text-align: left;
+  padding-top: 3em;
+  padding-left: 3em;
+}
+
 /* ICONS */
 .shoppingcart,
 .person {
@@ -149,8 +158,8 @@ display: none;
 
 /* FORM */
 .multistep-form {
-  margin-top: 3em;
-  padding: 0.5rem 1.5rem;
+  margin-top: 1em;
+  padding: 0.5rem 1.1rem;
   overflow: hidden;
   z-index: -1;
 }
@@ -159,10 +168,10 @@ display: none;
   padding: 0rem 2rem 1.5rem 2rem;
   margin: 0rem auto 0 auto;
   border: none;
-  border-radius: 10px;
-  background-color: white;
+  /* border-radius: 10px; */
+  /* background-color: white;  */
   color: #333;
-  box-shadow: -1px 2px 8px 2px rgba(0, 0, 0, 0.2);
+  /* box-shadow: -1px 2px 8px 2px rgba(0, 0, 0, 0.2); */
   opacity: 0;
   animation: slide-out 300ms ease-in-out;
 }
@@ -172,10 +181,11 @@ display: none;
   width: 100%;
   align-items: center;
   color: #649b94;
-  font-size: 1.1rem;
-  margin-top: 1.2em;
+  font-size: 1.7rem;
+  margin-top: 0.7em;
   padding: 0.5rem;
 }
+
 
 .card h3 {
   text-align: left;
@@ -183,7 +193,7 @@ display: none;
   align-items: center;
   color: #152a42;
   font-weight: 400;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   padding: 0.5rem;
   line-height: 1.4em;
 }
@@ -216,6 +226,19 @@ display: none;
   color: #649b94;
   font-weight: 600;
 }
+
+.card h6{
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 1.4em;
+  color:#7a7a7a;
+  }
+  
+  a{
+    text-decoration: underline;
+    color: #649b94;
+    font-weight: 600;
+    }
 
 .card input,
 .card textarea {
@@ -255,7 +278,8 @@ display: none;
   outline: none;
   border: none;
   cursor: pointer;
-  margin: 1em;
+  margin-top: 2em;
+  margin-left: 3em;
 }
 
 .btn-primary {
@@ -284,19 +308,6 @@ display: none;
 
 /* CHECKBOX */
 
-.checkbtn h6{
-font-size: 1.2em;
-font-weight: 400;
-line-height: 1.4em;
-color:#7a7a7a;
-}
-
-a{
-  text-decoration: none;
-  color: #649b94;
-  font-weight: 600;
-  }
-
 .radiobtn {
   display: block;
   position: relative;
@@ -310,9 +321,9 @@ a{
 .checkbtn{
   display: block;
   position: relative;
-  margin-top: 12px;
+  margin-top: 1.6em;
   padding-left: 2.5em;
-  margin-bottom: 12px;
+  margin-bottom: 1.6em;
   cursor: pointer;
   font-size: 0.7em;
 }

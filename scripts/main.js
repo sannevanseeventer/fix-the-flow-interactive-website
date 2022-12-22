@@ -14,6 +14,15 @@ navToggle2.addEventListener("click", () => {
 })})
 
 // FORM //
+const txt1 = document.getElementById('tbuser');
+const btn1 = document.getElementById ('btn1');
+const out1 = document.getElementById ('output1');
+
+function fun1 () {
+  out1.innerHTML = "Wat is de geboortedatum van " + txt1.value + "?";
+}
+
+btn1.addEventListener ('click', fun1);
 
 const multistepForm = document.querySelector('.multistep-form');
 const forms = multistepForm.querySelectorAll('fieldset');

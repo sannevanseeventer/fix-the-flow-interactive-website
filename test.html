@@ -61,12 +61,14 @@
 
   <main>
 
+    <p class="nav2">Home / Doe de test</p>
+
     <form class="multistep-form">
 
       <fieldset class="card">
-        <h2>Doe de test</h2>
-        <h3>We zullen hier een aantal vragen stellen over jou en je Mini die we nodig hebben om advies te kunnen
-          geven over welk product het beste past bij jouw mini. Als je het niet fijn vindt om je gegevens achter te laten klik dan <a href="">hier</a>
+        <h2>Test</h2>
+        <h3>We zullen hier een aantal vragen stellen die we nodig hebben om advies te kunnen
+          geven over welk product het beste past bij jouw Mini. Als je het niet fijn vindt om je gegevens achter te laten klik dan <a href="">hier</a>
           <label class="checkbtn"><h6>Ik ga akkoord met het verwerken van mijn persoonsgegevens.</h6>
             <input type="checkbox" name="checkbox" checked required>
             <span class="checkmark2"></span>
@@ -80,15 +82,15 @@
         <h4> Vraag 1/6</h4>
         <h2>Hoe heet jouw Mini?</h2>
         <br>
-        <input type="text" name="firstName" placeholder="Naam" required />
+        <input type="text" id="tbuser" name="firstName" placeholder="Naam" required />
 
         <button type="button" data-previous class="btn btn-primary">VORIGE</button>
-        <button type="button" data-next class="btn btn-primary">VOLGENDE</button>
+        <button type="button" id= "btn1" data-next class="btn btn-primary">VOLGENDE</button>
       </fieldset>
 
       <fieldset class="card">
         <h4> Vraag 2/6</h4>
-        <h2>Wat is de geboortedatum van jouw Mini?</h2>
+        <h2 id="output1"></h2>
         <br>
         <input type="date" name="firstName" placeholder="DD/MM/JJJJ" required />
 
