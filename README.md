@@ -1,17 +1,52 @@
-> _Fork_ deze leertaak en ga aan de slag. 
-Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
-De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+<img width="156" alt="Schermafbeelding 2022-09-29 om 13 38 58" src="https://user-images.githubusercontent.com/112857444/193126088-101fcf85-c8e5-457d-a00f-e862a33249ac.png">
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+<h2>Opdracht</h2>
+Ontwerp en maak voor een opdrachtgever een component of website op basis van een bestaande huisstijl.
+<br>
+<br>
 
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+<strong>Userstory:</strong> Er kunnen vragen worden gesteld aan een gebruiker over zijn / haar Mini. Zo kan er een advies worden gegeven over wanneer en in welke hoeveelheid wat voor producten aan het kind kunnen worden gegeven.
 
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+
+<h2>Beschrijving</h2>
+Vini Mini heeft als missie om voedselallergie te voorkomen bij baby’s. Hiervoor bieden ze gezonde, makkelijke en betrouwbare voedingssupplementen voor baby’s om te wenne naan bepaalde allergenen. Nu alleen nog voor pinda, maar het doel is om hier ei, noten en andere allergenen aan toe te voegen.
+
+
+<h2>De test</h2>
+Ouders/verzorgers zullen op deze pagina terechtkomen als ze de test willen invullen.
+<br>
+<br>
+
+![schermen](https://user-images.githubusercontent.com/112857444/206448301-ce6fa8dc-b439-430a-8923-85e710036fcc.png)
+
+
+<br>
+
+<img width="1508" alt="Schermafbeelding 2022-12-08 om 13 33 37" src="https://user-images.githubusercontent.com/112857444/206448685-44249ff4-0f8b-4461-ab42-b237e52cefc8.png">
+
+
+
+<br>
+<br>
+
+<h2>Kenmerken</h2>
+
+<h3>HTML:</h3>
+<li>Header</li>
+<li>Main</li>
+<li>Section</li>
+<li>Form</li>
+<li>Label class</li>
+
+<h3>CSS:</h3>
+<li>Display</li>
+<li>Nav</li>
+<li>Hero</li>
+
+<h3>JS:</h3>
+<li>AddEventListener</li>
+<li>QuerySelectorAll</li>
+
 
 ## Bronnen
 
