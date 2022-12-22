@@ -158,8 +158,8 @@ display: none;
 
 /* FORM */
 .multistep-form {
-  margin-top: 1em;
-  padding: 0.5rem 1.1rem;
+  margin-top: 4em;
+  padding: 1rem 1.1rem;
   overflow: hidden;
   z-index: -1;
 }
@@ -168,10 +168,10 @@ display: none;
   padding: 0rem 2rem 1.5rem 2rem;
   margin: 0rem auto 0 auto;
   border: none;
-  /* border-radius: 10px; */
-  /* background-color: white;  */
+  border-radius: 10px;
+  background-color: white; 
   color: #333;
-  /* box-shadow: -1px 2px 8px 2px rgba(0, 0, 0, 0.2); */
+  box-shadow: -1px 2px 8px 2px rgba(0, 0, 0, 0.2);
   opacity: 0;
   animation: slide-out 300ms ease-in-out;
 }
@@ -181,8 +181,8 @@ display: none;
   width: 100%;
   align-items: center;
   color: #649b94;
-  font-size: 1.7rem;
-  margin-top: 0.7em;
+  font-size: 1.4rem;
+  margin-top: 1em;
   padding: 0.5rem;
 }
 
@@ -222,7 +222,6 @@ display: none;
 }
 
 .card h5 a{
-  text-decoration: none;
   color: #649b94;
   font-weight: 600;
 }
@@ -261,15 +260,12 @@ display: none;
   border: 1px solid #649b94;
 }
 
-.card button:first-of-type {
-  margin-left: 0.5em;
-}
-
 .info{
   background-color: transparent;
   border: none;
   color: #649b94;
-  position: absolute;
+  position: relative;
+  flex-direction: row-reverse;
 }
 
 
@@ -278,18 +274,19 @@ display: none;
   outline: none;
   border: none;
   cursor: pointer;
-  margin-top: 2em;
-  margin-left: 3em;
 }
 
 .btn-primary {
   color: #152a42;
   background-color: #f4eb34;
   border-radius: 40px;
-  font-size: 0.7em;
   font-weight: 600;
   letter-spacing: 0.1em;
-  padding: 1em 1.5em;
+  padding: 1em 2em;
+  margin-top: 1em;
+  margin-right: 1.5em;
+  margin-bottom: 1em;
+  font-size: 0.7em;
 }
 
 .btn-primary:hover,
@@ -306,6 +303,7 @@ display: none;
   display: none;
 }
 
+
 /* CHECKBOX */
 
 .radiobtn {
@@ -321,7 +319,7 @@ display: none;
 .checkbtn{
   display: block;
   position: relative;
-  margin-top: 1.6em;
+  margin-top: 2em;
   padding-left: 2.5em;
   margin-bottom: 1.6em;
   cursor: pointer;
@@ -400,8 +398,8 @@ display: none;
 .checkbtn .checkmark2:after {
   top: 1.4px;
   left: 1.2px;
-  width: 8px;
-  height: 8px;
+  width: 9px;
+  height: 9px;
   background: #649b94;
 }
 
@@ -430,6 +428,7 @@ display: none;
     transform: translateX(50%);
   }
 }
+
 
 
 /*RESPONSIVE*/

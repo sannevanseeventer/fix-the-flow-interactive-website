@@ -13,16 +13,25 @@ navToggle2.addEventListener("click", () => {
     
 })})
 
-// FORM //
+// FORM + NAME MINI//
+
 const txt1 = document.getElementById('tbuser');
 const btn1 = document.getElementById ('btn1');
 const out1 = document.getElementById ('output1');
+const out2 = document.getElementById ('output2');
+const out3 = document.getElementById ('output3');
+const out4 = document.getElementById ('output4');
 
 function fun1 () {
   out1.innerHTML = "Wat is de geboortedatum van " + txt1.value + "?";
+  out2.innerHTML = "Is " + txt1.value + " je eerste kindje?";
+  out3.innerHTML = "Heeft " + txt1.value + " ooit een acute allergische reactie gehad na het eten?  ";
+  out4.innerHTML = "Heeft " + txt1.value + " Eczeem?";
 }
 
 btn1.addEventListener ('click', fun1);
+
+// FORM //
 
 const multistepForm = document.querySelector('.multistep-form');
 const forms = multistepForm.querySelectorAll('fieldset');
@@ -138,4 +147,4 @@ function observable(v) {
 }
 
 
-
+// PRROGRESSBAR //
