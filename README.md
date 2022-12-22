@@ -17,7 +17,9 @@ Ouders/verzorgers zullen op deze pagina terechtkomen als ze de test willen invul
 <br>
 <br>
 
-![schermen](https://user-images.githubusercontent.com/112857444/206448301-ce6fa8dc-b439-430a-8923-85e710036fcc.png)
+
+![schermen2](https://user-images.githubusercontent.com/112857444/209220897-15415886-1179-40d6-9699-d7a47aaa1b37.png)
+
 
 
 <br>
